@@ -1,0 +1,464 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "hi",
+                "Hii",
+                "Hey",
+                "hi there",
+                "",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hello how are you feeling today?",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "by",
+                "byy"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "talk",
+            "patterns": [
+                "Hi, How is it going?",
+                "How do you do?",
+                "Nice to meet you."
+            ],
+            "response": [
+                "The HCareBot is working great! How are you feeling today?",
+                "Thank you. How can i assist you? How are you feeling today?",
+                "I'm doing well. How are you feeling today?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "thnx"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "interest",
+            "patterns": [
+                "What are your interests"
+            ],
+            "responses": [
+                " I am interested in helping you in Home Made Remedies for your health!"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                " What is your location"
+            ],
+            "responses": [
+                "I am offline. So I am present at the same location as you."
+            ]
+        },
+        {
+            "tag": "where",
+            "patterns": [
+                "Where are you from"
+            ],
+            "responses": [
+                "We are located at Bharati Vidyapeeth Deemed University Department of Engineering and Technology, Navi Mumbai as of now."
+            ]
+        },
+        {
+            "tag": "father",
+            "patterns": [
+                " Who is your father"
+            ],
+            "responses": [
+                "Ravi & his healthcare counselling team created me."
+            ]
+        },
+        {
+            "tag": "mother",
+            "patterns": [
+                "Who is your mother"
+            ],
+            "responses": [
+                "Ravi & his healthcare counselling team created me."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                " What is your age"
+            ],
+            "responses": [
+                "I was created in March 2023."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                " What is your name"
+            ],
+            "responses": [
+                "My Name is AyurBot."
+            ]
+        },
+        {
+            "tag": "Fine",
+            "patterns": [
+                "i am feeling fine",
+                "i feel fine",
+                "i feel great",
+                "fine",
+                "i feel awesome",
+                "i feel good",
+                "i am feeling good"
+            ],
+            "responses": [
+                "Good to know. How may i assist you then?"
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "I feel sick",
+                "I have weakness in my body.",
+                "I am feeling weak",
+                "i am sick",
+                "i am not well",
+                "i am not feeling well"
+            ],
+            "responses": [
+                "Okay. Can you tell me what's wrong? What are your symptoms?"
+            ]
+        },
+        {
+            "tag": "cold",
+            "patterns": [
+                "My nose is choked."
+            ],
+            "responses": [
+                "Okay, this is a symptom of cold, do you have cold?"
+            ]
+        },
+        {
+            "tag": "cold remedy",
+            "patterns": [
+                "i have cold",
+                "i have a cold",
+                "cold"
+            ],
+            "responses": [
+                "Take ½ teaspoon of Haldi powder and ½ teaspoon of pepper powder with milk add a 1 teaspoon honey, 3 times a day. It helps you in cold."
+            ]
+        },
+        {
+            "tag": "cold remedy confirm",
+            "patterns": [
+                "yes i took"
+            ],
+            "responses": [
+                "Good, now take some rest."
+            ]
+        },
+        {
+            "tag": "cough remedy",
+            "patterns": [
+                "My throat is itching.",
+                "i have cough",
+                "cough"
+            ],
+            "responses": [
+                "What kind of cough do you have : 1. Wet cough 2. Dry cough"
+            ]
+        },
+        {
+            "tag": "Wet cough",
+            "patterns": [
+                "i have a wet cough",
+                "wet cough",
+                "wet"
+            ],
+            "responses": [
+                "Wet cough - Take 1 teaspoon honey. Add 1 teaspoon of ginger juice and 1 pinch of black pepper. Take once in the morning and once before going to bed at night to get relief from Wet cough."
+            ]
+        },
+        {
+            "tag": "Dry cough",
+            "patterns": [
+                "i have a dry cough",
+                "dry cough",
+                "dry"
+            ],
+            "responses": [
+                "Dry cough - Basil (Tulsi) leaves and ginger are very effective in relieving an irritating dry cough. You can either chew basil (tulsi) leaves or take fresh ginger with hot water. It helps you in dry cough"
+            ]
+        },
+        {
+            "tag": "fever",
+            "patterns": [
+                "My body temperature has raised.",
+                "i have fever",
+                "i am suffering from fever",
+                "fever"
+            ],
+            "responses": [
+                "Basil (Tulsi) is an effective herb & It help reduce fever very quickly.                Take about 20 basil (tulsi) leaves and boil them, now add 1 teaspoon of crushed ginger in the strained tulsi water, and boil until the solution gets reduced to half. Add a little honey and drink this tea two or three times a day for three days to get relief from fever."
+            ]
+        },
+        {
+            "tag": "shivering",
+            "patterns": [
+                "I am shivering",
+                "shivering"
+            ],
+            "responses": [
+                "This is a symptom of fever, Take tea/decoction of about 20 Tulsi leaves 3 times a day till fever subsides. It helps you in fever/shivering."
+            ]
+        },
+        {
+            "tag": "Headache",
+            "patterns": [
+                "i have a headache",
+                "i have headache",
+                "headache"
+            ],
+            "responses": [
+                "what kind of headache do you have : 1. Migrane headache - Pain feels like a tight band around your head. 2. Cluster headache - Pain strikes in a group 3. Tension Headache - Ocassional"
+            ]
+        },
+        {
+            "tag": "Migrane Headache",
+            "patterns": [
+                "i have a migrane headache",
+                "migrane",
+                "1"
+            ],
+            "responses": [
+                "Migraine Headache - You can drink ginger and basil (tulsi) leaves tea throughout the day when you have pain and don't forget to have it right at the onset of pain."
+            ]
+        },
+        {
+            "tag": "Cluster Headache",
+            "patterns": [
+                "i have a cluster headache",
+                "cluster",
+                "2"
+            ],
+            "responses": [
+                "Cluster Headache - Ginger is known to help reduce the inflammation of the blood vessels in the head, providing relief. One can consume ginger to prevent headaches. Mix equal parts of ginger juice and lemon juice and have it daily twice."
+            ]
+        },
+        {
+            "tag": "Tension Headache",
+            "patterns": [
+                "i have a tension headache",
+                "tension",
+                "3"
+            ],
+            "responses": [
+                "Tension Headache - Apply heat to relieve tense neck and shoulder muscles. Use a heating pad set on low, a hot water bottle, a hot shower or bath, a warm compress, or a hot towel. Or apply ice or a cool washcloth to the forehead. Massage also can relieve muscle tension — and sometimes headache pain."
+            ]
+        },
+        {
+            "tag": "acidity",
+            "patterns": [
+                "i have acidity",
+                "i am suffering from acidity",
+                "acidity",
+                "heart burn"
+            ],
+            "responses": [
+                "Powder of Sonth (dry ginger), Soonf, Pudina dry and equal quantity, boil 1 teaspoon of this mix powder in a cup of water, take 3 times after food to get relief from Heart burn / Acidity."
+            ]
+        },
+        {
+            "tag": "indigestion",
+            "patterns": [
+                "i have indigestion",
+                "i am suffering from indigestion",
+                "indigestion"
+            ],
+            "responses": [
+                "Take 1 teaspoon of fresh ginger juice and 1 teaspoon of lemon juice add a pinch of Black salt and Zeera ½ teaspoon powder take 3 times after food. It helps you in indigestion."
+            ]
+        },
+        {
+            "tag": "constipation",
+            "patterns": [
+                "i have constipation",
+                "i am suffering from constipation",
+                "constipation"
+            ],
+            "responses": [
+                "Cut one medium size onion in pieces, fry in 1 teaspoon of ghee till it becomes soft eat the whole quantity with a glass of hot water at bed time for 3-5 days. It helps you in constipation."
+            ]
+        },
+        {
+            "tag": "cuts and wounds",
+            "patterns": [
+                "i have cuts",
+                "i have wounds",
+                "cuts",
+                "wounds"
+            ],
+            "responses": [
+                "Crush the Lajwanti plant (Touch me not) apply over the wound Cut Aloe vera leaf into two lengthwise and sprinkle turmeric powder on it place on the wound and bandage."
+            ]
+        },
+        {
+            "tag": "pain in joints and legs",
+            "patterns": [
+                "i have pain in joints",
+                "i have pain in legs",
+                "joints pain",
+                "legs pain"
+            ],
+            "responses": [
+                "Prepare oil by boiling 100 gms of Neem leaves and Pudina leaves in mustard oil add 1 teaspoon of salt, boil on low flame for ½ hr, apply on affected area and massage till oil is absorbed 2 times in a day till pain is relieved."
+            ]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": [
+                "i have diabetes",
+                "i am suffering from diabetes",
+                "diabetes"
+            ],
+            "responses": [
+                "Powder Methi, Kalonji and Tukhme Kasni (Chicory seeds Cichorium intybus) equal quantity, take ½ teaspoon daily before food 3 times. Eat plenty of vegetables like Guar beans, Knolkhol, Karela, Bhindi. It helps you in diabetes."
+            ]
+        },
+        {
+            "tag": "abdominal pain",
+            "patterns": [
+                "i have stomach pain",
+                "i have abdominal pain",
+                "i am suffering from stomach pain",
+                "stomach pain",
+                "abdominal pain"
+            ],
+            "responses": [
+                "1 teaspoon Adrak/Sonth juice in a glass of butter milk with lemon & salt. It helps you in stomach/abdominal pain."
+            ]
+        },
+        {
+            "tag": "loss of appetite",
+            "patterns": [
+                "loss of appetite"
+            ],
+            "responses": [
+                "1 teaspoon Ajvain powder with warm water 1/2 hour before meals."
+            ]
+        },
+        {
+            "tag": "vomiting",
+            "patterns": [
+                "i have vomiting",
+                "vomiting"
+            ],
+            "responses": [
+                "1-2 teaspoon Dalchini powder with honey thrice a day in divided doses. It helps you in vomiting."
+            ]
+        },
+        {
+            "tag": "skin allergy",
+            "patterns": [
+                "i have skin allergy",
+                "skin allergy"
+            ],
+            "responses": [
+                "1-2 teaspoon Haldi powder should be taken with jaggery twice a day. It helps you in skin allergy."
+            ]
+        },
+        {
+            "tag": "toothache",
+            "patterns": [
+                "i have toothache",
+                "toothache"
+            ],
+            "responses": [
+                "Keep fried Hing in carious tooth. It helps you in toothache."
+            ]
+        },
+        {
+            "tag": "kidney stone",
+            "patterns": [
+                "i have kidney stone",
+                "kidney stone"
+            ],
+            "responses": [
+                "Drink coconut water twice daily."
+            ]
+        },
+        {
+            "tag": "hair fall",
+            "patterns": [
+                "i am suffering from hair fall",
+                "i have hair fall",
+                "hair fall"
+            ],
+            "responses": [
+                "Coconut oil processed with Methi powder and Amla powder should be used regularly."
+            ]
+        },
+        {
+            "tag": "skin disease",
+            "patterns": [
+                "i am suffering from skin disease",
+                "i have skin disease",
+                "skin disease"
+            ],
+            "responses": [
+                "10 ml. juice of NEEM leaves with honey twice a day."
+            ]
+        },
+        {
+            "tag": "dizzy",
+            "patterns": [
+                "I am feeling dizzy",
+                "dizzy"
+            ],
+            "responses": [
+                "This might be because you are tired, you should take some rest."
+            ]
+        },
+        {
+            "tag": "take care",
+            "patterns": [
+                "yes, i feel good",
+                "yes",
+                "yup",
+                "yess"
+            ],
+            "responses": [
+                "Hope you get well soon, Take care!"
+            ]
+        }
+    ]
+}
